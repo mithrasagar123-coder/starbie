@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 1h | 1 |
+| Week 1 | Tier 1 | 1.5h | 1 |
 
 ## Contents
 
@@ -20,7 +20,7 @@
 
 ### 2026-10-08 – # October 7: I Need Help.
 
-**1h**
+**1.5h**
 
 # October 7: I Need Help.
 
