@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 5.5h | 3 |
+| Week 1 | Tier 1 | 6h | 3 |
 
 ## Contents
 
@@ -67,7 +67,7 @@ Tl;dr: Finished wiring the schematic, with minimal problems.
 
 ### 2026-10-11 – # October 11: Lots of Routing
 
-**2.5h**
+**3h**
 
 # October 11: Lots of Routing
 
@@ -91,6 +91,18 @@ After discussing it with some friends, and some tinkering with KiCad, I figured 
 
 ![Screenshot 2026-10-11 at 1.10.45 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/6e37d6c2f0f13dd433869021f659b5d9056e6b1dcac45e87115867f0aa6dcad5.png)
 
-Not 100% if this is entire correct... But hooray, I made it here!  Error checking next entry.
+Not 100% if this is entirely correct... But it looks right.
 
-Tl;dr: A bit of confusion on all the red and blue stuff in the PCB editor but eventually I figured out how to connect everything together and add in the GND pours.
+Now for error checking time.
+
+![Screenshot 2026-10-11 at 1.24.23 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/fbf196830e679334a136f01375a84bd32cbd92386f50f96b238627636225499e.png)
+As the tutorial said I could ignore any warnings at the first two errors, that leaves me with the last one.
+
+According to Gemini, the problem was that the copper fill zones couldn't connect to J2 Pin 2 because it was being blocked. To fix this, I had to:
+- Go to the pad properties of the pin
+- Find the connections tab
+- Change the pad connection to Solid
+
+Doing this successfully fixed the problem, leaving with me no more errors! Officially done routing :)
+
+Tl;dr: A bit of confusion on all the red and blue stuff in the PCB editor but eventually I connect everything together and added in the GND pours. Then I ran the DRC and fixed an error.
