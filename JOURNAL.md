@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-08 – # October 7: I Need Help.](#2026-10-08-october-7-i-need-help)
-2. [2026-10-11 – # October 10: Drew the Schematic!](#2026-10-11-october-10-drew-the-schematic)
+2. [2026-10-11 – # October 10th: Drew the Schematic!](#2026-10-11-october-10th-drew-the-schematic)
 3. [2026-10-11 – # October 11th (1): Lots of Routing](#2026-10-11-october-11th-1-lots-of-routing)
 
 ## Design
@@ -43,11 +43,11 @@ Left off here, will continue tomorrow:
 
 Tl;dr: I downloaded KiCad and added the first components to the microcontroller on the schematic editor.
 
-### 2026-10-11 – # October 10: Drew the Schematic!
+### 2026-10-11 – # October 10th: Drew the Schematic!
 
 **1.5h**
 
-# October 10: Drew the Schematic!
+# October 10th: Drew the Schematic!
 
 I continued drawing the schematic from where I left off last time, which was just adding the components. For a while, I was really confused about the concept of a net label (I thought it was supposed to group the symbols that you already added) but eventually, after some help from a friend, I understood what it actually was (at least, understood it enough to continue working).
 
