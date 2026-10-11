@@ -16,7 +16,7 @@
 
 1. [2026-10-08 – # October 7: I Need Help.](#2026-10-08-october-7-i-need-help)
 2. [2026-10-11 – # October 10: Drew the Schematic!](#2026-10-11-october-10-drew-the-schematic)
-3. [2026-10-11 – # October 11: Lots of Routing](#2026-10-11-october-11-lots-of-routing)
+3. [2026-10-11 – # October 11th (1): Lots of Routing](#2026-10-11-october-11th-1-lots-of-routing)
 
 ## Design
 
@@ -65,11 +65,11 @@ The schematic is now officially done! Will start routing the PCB next time.
 
 Tl;dr: Finished wiring the schematic, with minimal problems.
 
-### 2026-10-11 – # October 11: Lots of Routing
+### 2026-10-11 – # October 11th (1): Lots of Routing
 
 **3h**
 
-# October 11: Lots of Routing
+# October 11th (1): Lots of Routing
 
 Began routing, and it's easier than I thought!
 
