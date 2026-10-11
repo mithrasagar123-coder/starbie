@@ -14,17 +14,17 @@
 
 ## Contents
 
-1. [2026-10-08 – # October 7: I Need Help.](#2026-10-08-october-7-i-need-help)
+1. [2026-10-08 – # October 7th: I Need Help.](#2026-10-08-october-7th-i-need-help)
 2. [2026-10-11 – # October 10th: Drew the Schematic!](#2026-10-11-october-10th-drew-the-schematic)
 3. [2026-10-11 – # October 11th (1): Lots of Routing](#2026-10-11-october-11th-1-lots-of-routing)
 
 ## Design
 
-### 2026-10-08 – # October 7: I Need Help.
+### 2026-10-08 – # October 7th: I Need Help.
 
 **1.5h**
 
-# October 7: I Need Help.
+# October 7th: I Need Help.
 
 My first day doing anything hardware. I am very lost.
 
