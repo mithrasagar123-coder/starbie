@@ -91,4 +91,6 @@ After discussing it with some friends, and some tinkering with KiCad, I figured 
 
 ![Screenshot 2026-10-11 at 1.10.45 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/6e37d6c2f0f13dd433869021f659b5d9056e6b1dcac45e87115867f0aa6dcad5.png)
 
-Hooray, I made it here! Now for error checking.
+Not 100% if this is entire correct... But hooray, I made it here!  Error checking next entry.
+
+Tl;dr: A bit of confusion on all the red and blue stuff in the PCB editor but eventually I figured out how to connect everything together and add in the GND pours.
