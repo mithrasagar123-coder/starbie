@@ -4,7 +4,7 @@
 <!-- Generated: 2026-10-11T20:13:19.631Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuz24bcd02ud01rwgtgt8jp0). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > A tiny motion-controlled digital pet, basically a desktop Tamagotchi. Totally not a Starboy.
 
@@ -16,7 +16,7 @@
 
 1. [2026-10-08 – # October 7th: I Need Help.](#2026-10-08-october-7th-i-need-help)
 2. [2026-10-11 – # October 10th: Drew the Schematic!](#2026-10-11-october-10th-drew-the-schematic)
-3. [2026-10-11 – # October 11th (1): Lots of Routing](#2026-10-11-october-11th-1-lots-of-routing)
+3. [2026-10-11 – # October 11th: Lots of Routing](#2026-10-11-october-11th-lots-of-routing)
 
 ## Design
 
@@ -65,11 +65,11 @@ The schematic is now officially done! Will start routing the PCB next time.
 
 Tl;dr: Finished wiring the schematic, with minimal problems.
 
-### 2026-10-11 – # October 11th (1): Lots of Routing
+### 2026-10-11 – # October 11th: Lots of Routing
 
 **3h**
 
-# October 11th (1): Lots of Routing
+# October 11th: Lots of Routing
 
 Began routing, and it's easier than I thought!
 
