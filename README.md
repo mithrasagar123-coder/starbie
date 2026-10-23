@@ -18,7 +18,7 @@ Built for halflife by hackclub, a 10-week program where you can design and build
 
 # BOM:
 | Item | Qty | Supplier | Cost/item | Total Cost | Link |
-|---|---|---|---|---|---|
+|:---|:---|:---|:---|:---|:---|
 | Seeed Studio XIAO-ESP32-C3 | 1 | Seeed Studio | $4.99 | $4.99 | https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html |
 | 0.96-inch OLED Display | 1 | Amazon | $6.99 | $6.99 | https://amazon.com/UCTRONICS-SSD1306-Self-Luminous-Display-Raspberry/dp/B072Q2X2LL/ref=sr_1_8?crid=2P2DXFLVSHTB3&dib=eyJ2IjoiMSJ9.wmW83Dmxfyl5RxdfjV1gHlwW13m-YNHOj_O7pUk8C5gkalrY_lZrJILoq-J8XeV9g_OkzAn_QbQ7Hdf6zH10hpDtuCUVdgSz8pGyZY0XFu4IOS4XpV1T0_WKGI1wbhxDoyQBJbpg028PtWsAeafgckXSaxLZYpDczwmxtegmA76ieUWR1U5GuAtd0Nsj7A7dX-9V-mNuKk5aQ95hC4OuuqnmlPDKTvwhRwUkXUTsTOs.HzGmF9IvIg7EFFYdQskf5qiCojdbic8-c1rRF7Y38no&dib_tag=se&keywords=0.96-inch+OLED+Display&qid=1791775097&sprefix=push+buttons%2Fkey+swithces%2Caps%2C212&sr=8-8 |
 | MPU6050 Module | 1 | Amazon | $8.59 | $8.59 | https://www.amazon.com/EC-Buying-Accelerometer-Gyroscope-Module16-Bit/dp/B0B3D6D1KD/ref=sr_1_7_sspa?crid=1KUZG5P1Y4C6Q&dib=eyJ2IjoiMSJ9._zRQIjLy8SJUb458TCsORbXxlN4OchKyUnuu3aT9YDobobJYxcCET9ZKo2ZIjJmWpf8FJtuiU2CCkf9YrU4RAj1t2EDQbYSzqINndsONpaf9Phcd1twGhtWZA0JouskzMm6jQDXYEI5puba5Xvhl-G3oEHLTwVFpCspRrPw15XT7kNow3OegPku5-jzTY0sTYkXVuoZ2-8Vk-rmCH1LYNze4dJKsRp9PGR8S4nUFI6Y.QOuyKCrHIcXbVTkrXSOi0zzxs4PHeJVMoJFAp07MUdQ&dib_tag=se&keywords=MPU6050+Module&qid=1791774644&sprefix=mpu6050+module%2Caps%2C146&sr=8-7-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1 |
