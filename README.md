@@ -17,6 +17,8 @@ Built for halflife by hackclub, a 10-week program where you can design and build
 <img width="571" height="475" alt="Screenshot 2026-10-22 at 10 48 38 PM" src="https://github.com/user-attachments/assets/f84fb1ef-0b79-4728-8a18-aa7dbd7e730a" />
 
 # PCB:
+<img width="822" height="655" alt="Screenshot 2026-10-22 at 11 10 41 PM" src="https://github.com/user-attachments/assets/1bd3827e-3612-4392-8b1e-ab00792d7b9b" /> 
+
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/<mithrasagar123>/<starbie>/tree/main/pcb)
 
 # BOM:
