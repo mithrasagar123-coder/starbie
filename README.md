@@ -1,27 +1,46 @@
-# Overview:
+# World Future Starbie
+
+## Overview
 <img width="1412" height="1140" alt="unnamed" src="https://github.com/user-attachments/assets/7f672512-21d8-4016-b1d7-d440481ae433" />
 
 PCB design of a a tiny motion-controlled digital pet. Totally not a Starboy. 
-Design based off Tsukasa Tenma from Project Sekai (he's a world future star!)
+Design based off Tsukasa Tenma from Project Sekai!
 
 Built for halflife by hackclub, a 10-week program where you can design and build hardware projects free of cost!
 
-# Parts:
+## Parts
 * Seeed Studio XIAO-ESP32-C3 as the main microcontroller
 * 0.96 inch OLED Display to view your pet
 * Two buttons to play with your pet
 * MPU6050 Module for motion sensing
 * DHT11 Sensor to track temperature and humidity
 
-# Schematic:
+## Schematic
+Here is the schematic for all the parts: 
+
 <img width="571" height="475" alt="Screenshot 2026-10-22 at 10 48 38 PM" src="https://github.com/user-attachments/assets/f84fb1ef-0b79-4728-8a18-aa7dbd7e730a" />
 
-# PCB:
+## PCB
+How everything is organized and wired together, and with some cool art to spice it up!:
 <img width="822" height="655" alt="Screenshot 2026-10-22 at 11 10 41 PM" src="https://github.com/user-attachments/assets/1bd3827e-3612-4392-8b1e-ab00792d7b9b" /> 
+
+*(The little guy in the middle is Tsukasa Tenma, an actor who wants to a become a world future star.)*
 
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/<mithrasagar123>/<starbie>/tree/main/pcb)
 
-# BOM:
+## Code
+The basic code is in [Starbie.ino](https://github.com/SharKingStudios/Starbie/blob/main/Firmware/Starbie/Starbie.ino), however it's edited to have a secret exta command!
+
+| Control | What it does |
+| --- | --- |
+| Button 1, first press | Opens the radial menu |
+| Tilt while menu is open | Moves the selector ball; each general direction is one large sector |
+| Button 1, second press | Chooses the highlighted action |
+| Button 2 | Shows or hides the stats screen |
+| Shake while seeing the pet | Gives the pet its shake reaction |
+| Button 1 & 2 simultaneously | *(Secret command!)* Makes the pet wink |
+
+## BOM
 | Item | Qty | Supplier | Cost/item | Total Cost | Link |
 |:---|:---|:---|:---|:---|:---|
 | Seeed Studio XIAO-ESP32-C3 | 1 | Seeed Studio | $4.99 | $4.99 | https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html |
@@ -29,3 +48,5 @@ Built for halflife by hackclub, a 10-week program where you can design and build
 | MPU6050 Module | 1 | Amazon | $8.59 | $8.59 | https://www.amazon.com/EC-Buying-Accelerometer-Gyroscope-Module16-Bit/dp/B0B3D6D1KD/ref=sr_1_7_sspa?crid=1KUZG5P1Y4C6Q&dib=eyJ2IjoiMSJ9._zRQIjLy8SJUb458TCsORbXxlN4OchKyUnuu3aT9YDobobJYxcCET9ZKo2ZIjJmWpf8FJtuiU2CCkf9YrU4RAj1t2EDQbYSzqINndsONpaf9Phcd1twGhtWZA0JouskzMm6jQDXYEI5puba5Xvhl-G3oEHLTwVFpCspRrPw15XT7kNow3OegPku5-jzTY0sTYkXVuoZ2-8Vk-rmCH1LYNze4dJKsRp9PGR8S4nUFI6Y.QOuyKCrHIcXbVTkrXSOi0zzxs4PHeJVMoJFAp07MUdQ&dib_tag=se&keywords=MPU6050+Module&qid=1791774644&sprefix=mpu6050+module%2Caps%2C146&sr=8-7-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1 |
 | DHT11 Sensor | 1 | Amazon | $5.99 | $5.99 | https://www.amazon.com/Temperature-Humidity-Digital-3-3V-5V-Raspberry/dp/B07WT2HJ4F/ref=sr_1_4?crid=XL8PM5RPTCVL&dib=eyJ2IjoiMSJ9.qU-epMP27V9xTEwpzBirXXktiO8qRzDbfrYfDG1jbO6Nv2gAebF5CWqUIVL6rdCuK0y735nMmdlPxfUdiCMf6qhnTVRewbfqfp26tsMq7NgtYG2NWXlGYXQRQGWRXWv4fAlv5oJp7oG24Fb9TiRigy05hMRSGKx3ueXKi5_wvxzxwfzsLlBscDmW-3YJWty-HPzPeBOsOjwKl4qm0TXYoVa2Y6n7f5YB0YPX602shDU.dVT9bd5Bd-n3Cxo8eSXbXwt27uRBory_fcWcJtFrjNM&dib_tag=se&keywords=DHT11+Sensor&qid=1791774904&sprefix=dht11+sensor%2Caps%2C187&sr=8-4 |
 | Estimated total shipping | 1 |  |  | $2.16 |  |
+
+All done! Thanks a lot for reading!
