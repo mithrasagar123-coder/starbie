@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuz24bcd02ud01rwgtgt8jp0). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A tiny motion-controlled digital pet, basically a desktop Tamagotchi. Totally not a Starboy.
+> PCB design of a a tiny motion-controlled digital pet. Totally not a Starboy.  Design based off Tsukasa Tenma from Project Sekai (he's a world future star!)
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
@@ -31,7 +31,7 @@ My first day doing anything hardware. I am very lost.
 
 I read through the Week 1 Guide and hit my first problem when I had to download KiCad; the link on the official website through  GitHub kept giving me an error message...
 
-![Screenshot 2026-10-07 at 11.11.11 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/16bdce9480633e3f1b92de1834a767089c951876e4a8616addc2a04557d6c0d6.png)
+![Screenshot 2026-10-07 at 11.11.11 PM](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/16bdce9480633e3f1b92de1834a767089c951876e4a8616addc2a04557d6c0d6.png)
 
 Luckily, I asked my dad (he works in software) and he was able to help me download it by using the MIT link instead. I was able to manually add the KiCad project onto my GitHub account and connect it to Half Life... At least I think it worked.
 
@@ -40,7 +40,7 @@ Afterwards, I had a hard time trying to upload the symbol and footprint librarie
 Finally, I started working on the Schematic Editor, and was able to upload some components.
 
 Left off here, will continue tomorrow:
-![Screenshot 2026-10-07 at 11.58.11 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/0120e28378eefbe89d040401a1d0a5e44415a4b50554835932cf3e25c442f6ea.png)
+![Screenshot 2026-10-07 at 11.58.11 PM](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/0120e28378eefbe89d040401a1d0a5e44415a4b50554835932cf3e25c442f6ea.png)
 
 Tl;dr: I downloaded KiCad and added the first components to the microcontroller on the schematic editor.
 
@@ -54,11 +54,11 @@ I continued drawing the schematic from where I left off last time, which was jus
 
 While I was working on the ESP32 C3, a couple snags I hit were not knowing how to add the green wire to connect the components and how to move words of a net label without actually moving it, but those were fixed by a few google searches. Soon, enough, I finished!
 
-![Screenshot 2026-10-10 at 8.33.31 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/04c8697627470229c6c5c210b9ca676b8646579685f23cd85ce212ca295355df.png)
+![Screenshot 2026-10-10 at 8.33.31 PM](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/04c8697627470229c6c5c210b9ca676b8646579685f23cd85ce212ca295355df.png)
 
 At this point, I stopped feeling as lost and clueless as I did last time, and got into the hang of it, and was luckily able to get through the rest of the schematic smoothly.
 
-![Screenshot 2026-10-10 at 8.54.53 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/8310684dc96b84237fe15f81effa9fbeecc52c6997542b97f7e512a0b83b6e98.png)
+![Screenshot 2026-10-10 at 8.54.53 PM](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/8310684dc96b84237fe15f81effa9fbeecc52c6997542b97f7e512a0b83b6e98.png)
 
 Finally, I assigned footprints to the symbols (not a huge problem, but scrolling through the long list of footprints was very annoying).
 
@@ -77,26 +77,26 @@ Began routing, and it's easier than I thought!
 I arranged the components and drew out the star shape, which probably took longer than necessary, because I'm a perfectionist, but I'm happy with how it looks.
 
 (Might change the shape to heart later, if I can't think of any other ways to customize the PCB).
-![unnamed](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/dac52b0b6e4d1b9fa7f14d3296a39b60015003e56cd9d049fbfbfda79ecf205b.webp)
+![unnamed](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/dac52b0b6e4d1b9fa7f14d3296a39b60015003e56cd9d049fbfbfda79ecf205b.webp)
 
 Got to routing, and it was pretty fun. A little problem I ran into was that I didn't understand the red lines and blue ones, and how to get the exact look and colors they did in the tutorial.
 
 What I did initially was I only drew in the red lines, then I did my GND pour on the B.cu layer and was very confused to why mine didn't match the tutorial image...
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/0d8bd713f87c9831cdb97d5c986750bd34184f5fa93bcf8f37c6661a7cc4db85.png)
+![image](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/0d8bd713f87c9831cdb97d5c986750bd34184f5fa93bcf8f37c6661a7cc4db85.png)
 
 After discussing it with some friends, and some tinkering with KiCad, I figured out:
 - I have to draw in the blue lines on the B.cu layer, along with the red ones. *(I thought doing the GND pour would make those automatically, for some reason)*
 - To make it red, I have to switch to F.cu layer...
 - ...but I have to do the GND pour on both layers,  which how to get it look like how it's supposed too.
 
-![Screenshot 2026-10-11 at 1.10.45 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/6e37d6c2f0f13dd433869021f659b5d9056e6b1dcac45e87115867f0aa6dcad5.png)
+![Screenshot 2026-10-11 at 1.10.45 PM](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/6e37d6c2f0f13dd433869021f659b5d9056e6b1dcac45e87115867f0aa6dcad5.png)
 
 Not 100% if this is entirely correct... But it looks right.
 
 Now for error checking time.
 
-![Screenshot 2026-10-11 at 1.24.23 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/fbf196830e679334a136f01375a84bd32cbd92386f50f96b238627636225499e.png)
+![Screenshot 2026-10-11 at 1.24.23 PM](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/fbf196830e679334a136f01375a84bd32cbd92386f50f96b238627636225499e.png)
 As the tutorial said I could ignore any warnings at the first two errors, that leaves me with the last one.
 
 According to Gemini, the problem was that the copper fill zones couldn't connect to J2 Pin 2 because it was being blocked. To fix this, I had to:
@@ -120,9 +120,9 @@ At this point I locked in for all the final things I needed to do:
 I fiddled around with some designs to add and got this! Took a little while because I was learning how to use image converter and had to reupload the sparkles 4 different times for different sizes.
 *(The little guy in the middle is Tsukasa from Project Sekai, he's an actor and has this big thing about being a world future star so I thought putting him here would be fitting.)*
 
-![unnamed](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/923cef37bdc3db46cec5adbc72e68b79e1de9f0fd628f7ca14369a6bf3f083b3.webp)
+![unnamed](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/923cef37bdc3db46cec5adbc72e68b79e1de9f0fd628f7ca14369a6bf3f083b3.webp)
 
-![unnamed](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/43f3b816e7d59ea0b3064bd6e765665fe675a50e13f2ad7285a305b6546eade1.webp)
+![unnamed](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/43f3b816e7d59ea0b3064bd6e765665fe675a50e13f2ad7285a305b6546eade1.webp)
 
 ## Arduino
 I don't know how to code, so I was very scared for this step at first, but it went better than I expected! I was able to download the software and add in the code smoothly, as well as make the sparkle trail.
@@ -131,17 +131,17 @@ I don't know how to code, so I was very scared for this step at first, but it we
 
 Drawing the pixelated sprite probably took the longest out of everything, because of how hard it was to draw him right with so little pixels, and the amount of times I had to redo or export the image in code again because I messed up the measurements. But I like how it turned out in the end! I drew the aforementioned guy in the middle of the PCB :)
 
-![Screenshot 2026-10-20 at 10.47.00 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/b811d2a9b55a7a21c161cca5efa16a67ffd9692a7286b34579aadf55a8b885c2.png)
+![Screenshot 2026-10-20 at 10.47.00 PM](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/b811d2a9b55a7a21c161cca5efa16a67ffd9692a7286b34579aadf55a8b885c2.png)
 
 ## Editing the Code
 Code newbie here. My dad helped me change the code so I can make my sprite wink.
 
 First, I made a copy of my original drawing and edited him to give him a little wink:
-![pixilart-drawing](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/2480669a51937cbd501c6c607c268b0abef73d0715064bfad391c48acbea94d3.png)
+![pixilart-drawing](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/2480669a51937cbd501c6c607c268b0abef73d0715064bfad391c48acbea94d3.png)
 
 Then we moved back into the code, were we basically implementing a new command, the screen would switch between PET WINK VIEW and PET VIEW if button one and two were pressed at the same time, then it would so PET WINK VIEW.
 
-![Screenshot 2026-10-20 at 10.52.11 PM](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/3bf01c8f9de11c849a48a4bec7499d4df832c398b9bbcf9fa609725f30956c22.png)
+![Screenshot 2026-10-20 at 10.52.11 PM](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/3bf01c8f9de11c849a48a4bec7499d4df832c398b9bbcf9fa609725f30956c22.png)
 
 Also added a little tweak to the beginning to make sure that you had to press only button  and two to activate their respective command, so there won't be any bugs in pressing both buttons at the same time.
 
@@ -152,6 +152,6 @@ I know this shouldn't have taken more than half an hour. But it wasn't my fault 
 
 ## The Grand Finale
 And, so, a PCB was born! Final look in 3D viewer:
-![tsukasa_pcb](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/709fe013967d8e68d1e08ffb864be28ea6fe116d1e45603df212e6061d8661bb.webp)
+![tsukasa_pcb](https://halflife.hackclub-assets.com/sessions/UVNqyKra78p0fx3PyRp3K6pDIBVtreMb/709fe013967d8e68d1e08ffb864be28ea6fe116d1e45603df212e6061d8661bb.webp)
 
 Tl;dr: Finished my PCB customizations and prepared the code, while adding in my own sprite and special command.
