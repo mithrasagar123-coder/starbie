@@ -6,7 +6,7 @@
 PCB design of a a tiny motion-controlled digital pet. Totally not a Starboy. 
 Design based off Tsukasa Tenma from Project Sekai!
 
-I designed this for my Week 1 project for halflife, a 10-week program where you can design and build hardware projects free of cost!
+I designed this for my Week 1 project of halflife, a 10-week program where you can design and build hardware projects free of cost!
 
 ## Parts
 * Seeed Studio XIAO-ESP32-C3 as the main microcontroller
